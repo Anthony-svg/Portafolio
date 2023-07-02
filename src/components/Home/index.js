@@ -38,7 +38,7 @@ const Home = () => {
             />
           </h1>
           <h2>Desarrollador Front End / Desarrollador Back End</h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="/contacto" className="flat-button">
             Contactame
           </Link>
         </div>

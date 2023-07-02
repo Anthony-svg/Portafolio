@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.cuadricula{
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  column-gap: 20%;
+}
+
+.cuadricula .contenedor{
+  width: 100%;
+  margin: 40px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.cuadricula .card{
+  width: 400%;
+  height: 200px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 2) ;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.cuadricula .card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 4) ;
+
+}
+
+.cuadricula .card img{
+  width: 100%;
+  height: 210px;
+}
+.cuadricula .card .contenido{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #fff;
+}
