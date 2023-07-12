@@ -36,7 +36,7 @@
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: whitesmoke;
+    background: #26292b;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -47,7 +47,7 @@
   textarea {
     width: 100%;
     border: 0;
-    background: whitesmoke;
+    background: #26292b;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -57,22 +57,25 @@
   }
 
   .flat-button {
-    color: whitesmoke;
-    font-size: 11px;
-    letter-spacing: 3px;
+    background: #2E3239;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
     text-decoration: none;
-    padding: 8px 10px;
-    border: 1px solid whitesmoke;
+    padding: 10px 18px;
+    border: 1px solid white;
+    margin-top: 25px;
     float: left;
-    border-radius: 4px;
-    background: 0 0;
-    text-transform: uppercase;
-    float: right;
-    text-align: center;
-    margin-right: 10px;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #A2B2EE;
+      color: #26292B;
+    }
   }
 }
-
 
 .leaflet-container {
   position: relative;

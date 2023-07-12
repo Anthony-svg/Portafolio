@@ -26,10 +26,16 @@ const Home = () => {
             <span className={`${letterClass} _12`}>o</span>
             <span className={`${letterClass} _13`}>l</span>
             <span className={`${letterClass} _14`}>a</span>
+            <span className={`${letterClass} _15`}>,</span>
             <br />
-            <span className={`${letterClass} _15`}>s</span>
-            <span className={`${letterClass} _16`}>o</span>
-            <span className={`${letterClass} _17`}>y</span>
+            <span className={`${letterClass} _16`}>M</span>
+            <span className={`${letterClass} _17`}>e</span>
+            <span> </span>
+            <span className={`${letterClass} _18`}>l</span>
+            <span className={`${letterClass} _19`}>l</span>
+            <span className={`${letterClass} _20`}>a</span>
+            <span className={`${letterClass} _21`}>m</span>
+            <span className={`${letterClass} _22`}>o</span>
             <br />
             <AnimatedLetters
               letterClass={letterClass}
@@ -38,9 +44,11 @@ const Home = () => {
             />
           </h1>
           <h2>Desarrollador Front End / Desarrollador Back End</h2>
+          <div>
           <Link to="/contacto" className="flat-button">
             Contactame
-          </Link>
+          </Link>  
+          </div>
         </div>
         <Logo />
       </div>

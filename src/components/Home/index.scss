@@ -19,7 +19,7 @@
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: white;
+      color: #5F7ADB;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -30,7 +30,7 @@
     &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
-      color: white;
+      color: #5F7ADB;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -50,7 +50,7 @@
   }
 
   h2 {
-    color: #8d8d8d;
+    color: whitesmoke;
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
@@ -74,8 +74,8 @@
     white-space: nowrap;
 
     &:hover {
-      background: white;
-      color: #333;
+      background: #A2B2EE;
+      color: #26292B;
     }
   }
 }

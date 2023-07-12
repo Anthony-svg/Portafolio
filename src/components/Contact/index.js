@@ -18,15 +18,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs
-      .sendForm('service_ibkyjwx', 'template_fdca3en', form.current, '18g507SDKm65XEEsaRjEO')
+    emailjs.sendForm('service_ibkyjwx', 'template_fdca3en', form.current, 'zVIBM20DX_BaL7Wl9')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          console.log("se envio la info");
+          e.target.reset();
         },
         () => {
-          alert('Failed to send the message, please try again')
+          console.log("No se envio la info");
         }
       )
   }
@@ -43,7 +42,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Texto Rerefente a el fomulario de contacto
+            Enviame un mensaje a mi correo y me contactare contigo lo mas pronto posible
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -75,7 +74,7 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="submit" className="flat-button" value="Enviar" />
+                  <button type="submit" className="flat-button">Enviar</button> 
                 </li>
               </ul>
             </form>

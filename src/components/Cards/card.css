@@ -8,7 +8,9 @@
   grid-template-columns: repeat(4, 50px);
   column-gap: 20%;
 }
-
+.contenedor h2{
+  position: fixed;
+}
 .cuadricula .contenedor{
   width: 100%;
   margin: 40px;
@@ -18,7 +20,7 @@
 }
 
 .cuadricula .card{
-  width: 400%;
+  width: 600%;
   height: 200px;
   border-radius: 6px;
   overflow: hidden;

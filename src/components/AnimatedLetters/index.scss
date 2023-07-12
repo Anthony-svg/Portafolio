@@ -15,9 +15,10 @@
 
   &:hover {
     animation: rubberBand 1s;
-    color: #555;
+    color: #A2B2EE;
   }
 }
+
 
 @for $i from 1 through 35 {
   .text-animate._#{$i} {

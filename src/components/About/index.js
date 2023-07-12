@@ -11,6 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import curriculum from '../../assets/archives/curriculum.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -32,17 +33,11 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
-            Contenido Acerca de mi Parrafo1
-          </p>
-          <p align="LEFT">
-          Contenido Acerca de mi Parrafo2
-          </p>
-          <p>
-          Contenido Acerca de mi Parrafo3
-          </p>
+          <p>Hola mi nombre es Anthony y este es mi portafolio, quiero llegar a ser un gran desarrollador full-stack y para ello tengo he adquirido conocimientos de varios lenguajes de programación como lo son Xamarin, C#, Javascript, Typescript, Java, etc. Soy un estudiante de ingeniería en software apasionado por el desarrollo de soluciones tecnológicas innovadoras. Mi objetivo es adquirir un profundo conocimiento en el campo de la ingeniería de software y aplicarlo para resolver desafíos complejos y mejorar la calidad de vida de las personas a través de la tecnología.</p>
+          <br></br>
+          <p>Mis hobbies son ejercitarme, escuchar musica, ver e-sports y peliculas. Estoy emocionado por aplicar mis habilidades y conocimientos en el mundo laboral, enfrentar nuevos desafíos y contribuir al desarrollo de soluciones innovadoras. Mi objetivo es trabajar en un entorno colaborativo donde pueda seguir creciendo profesionalmente y tener un impacto significativo en el campo de la ingeniería de software. Dentro de este portafolio podras encontrar una seccion con algunos proyectos de los cuales he formado parte del desarollo.</p>
+              <a href={curriculum} className='flat-button' download><faDownload />Descargar cv</a>
         </div>
-
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">

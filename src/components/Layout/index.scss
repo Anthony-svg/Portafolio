@@ -10,7 +10,7 @@
 }
 
 .tags {
-  color: white;
+  color: #5F7ADB;
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -45,7 +45,7 @@
     h1 {
       font-size: 53px;
       font-family: 'Coolvetica';
-      color: white;
+      color: #FFF;
       font-weight: 400;
       margin-top: 0;
       position: relative;
@@ -55,7 +55,7 @@
       &:before {
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
-        color: white;
+        color: #5F7ADB;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
@@ -67,7 +67,7 @@
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
-        color: white;
+        color: #5F7ADB;
         font-size: 18px;
         line-height: 18px;
         position: absolute;
@@ -109,7 +109,7 @@
 
   .text-animate-hover {
     &:hover {
-      color: #fff;
+      color: #a2b2ee;
     }
   }
 }
