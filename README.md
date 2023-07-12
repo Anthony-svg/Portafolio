@@ -1,8 +1,8 @@
-#Portafolio
+# Portafolio
 
 Descarga el repositorio y dirigete al directorio en donde se encuentre el proyecto
 
-##Ejecucion 
+## Ejecucion 
 En el directorio del proyecto, puedes ejecutar:
 
 ```shell script
