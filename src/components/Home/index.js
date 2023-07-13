@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-
-import Logo from './Logo'
+import logo from '../../assets/images/programacion-web.png'
 import './index.scss'
 
 const Home = () => {
@@ -43,16 +42,18 @@ const Home = () => {
               idx={15}
             />
           </h1>
-          <h2>Desarrollador Front End / Desarrollador Back End</h2>
+          <h2>Desarrollador Full Stack</h2>
           <div>
           <Link to="/contacto" className="flat-button">
             Contactame
           </Link>  
           </div>
         </div>
-        <Logo />
+        <img src={logo}
+        className="solid-logo"
+        alt="Developer"
+      />
       </div>
-
       <Loader type="pacman" />
     </>
   )
