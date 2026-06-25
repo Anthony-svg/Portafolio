@@ -1,10 +1,28 @@
-{
-    "portfolio": [
+[
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "id": "1",
+            "link": "https://github.com/Anthony-svg/Portafolio",
+            "portada": "images/portada.jpg",
+            "titulo": "Portafolio"
+        },
+        {
+            "id": "2",
+            "link": "https://gitlab.com/busesecuador/buses-ecuador-app",
+            "portada": "images/portada3.png",
+            "titulo": "App Buses Ecuador"
+        },
+        {
+            "id": "3",
+            "link": "https://gitlab.com/busesecuador/buses-ecuador-app",
+            "portada": "images/portada.jpg",
+            "titulo": "Frontend Shop Angular"
+        },
+        {
+            "id": "4",
+            "link": "https://gitlab.com/busesecuador/buses-ecuador-app",
+            "portada": "images/portada.jpg",
+            "titulo": "Backend Shop .NET"
         }
-    ]
-}
+]
+
+

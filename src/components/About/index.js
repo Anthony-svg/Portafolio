@@ -11,7 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
-import curriculum from '../../assets/archives/curriculum.pdf'
+import curriculum from '../../assets/archives/Curriculum.pdf'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -33,9 +33,10 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Hola mi nombre es Anthony y este es mi portafolio, quiero llegar a ser un gran desarrollador full-stack y para ello tengo he adquirido conocimientos de varios lenguajes de programación como lo son Xamarin, C#, Javascript, Typescript, Java, etc. Soy un estudiante de ingeniería en software apasionado por el desarrollo de soluciones tecnológicas innovadoras. Mi objetivo es adquirir un profundo conocimiento en el campo de la ingeniería de software y aplicarlo para resolver desafíos complejos y mejorar la calidad de vida de las personas a través de la tecnología.</p>
+          <p>¡Hola! Mi nombre es Anthony, Ingeniero en Software y aspirante a Desarrollador Full-Stack. Me especializo en crear soluciones tecnológicas innovadoras utilizando lenguajes como C#, Java, JavaScript y TypeScript.</p>
           <br></br>
-          <p>Mis hobbies son ejercitarme, escuchar musica, ver e-sports y peliculas. Estoy emocionado por aplicar mis habilidades y conocimientos en el mundo laboral, enfrentar nuevos desafíos y contribuir al desarrollo de soluciones innovadoras. Mi objetivo es trabajar en un entorno colaborativo donde pueda seguir creciendo profesionalmente y tener un impacto significativo en el campo de la ingeniería de software. Dentro de este portafolio podras encontrar una seccion con algunos proyectos de los cuales he formado parte del desarollo.</p>
+          <h3>Más allá del código:</h3>
+          <p>Cuando no estoy programando, me gusta mantenerme en movimiento ejercitándome, seguir la estrategia de los e-sports, disfrutar de buenas películas y escuchar música para inspirarme.</p>
               <a href={curriculum} className='flat-button' download><faDownload />Descargar cv</a>
         </div>
         <div className="stage-cube-cont">

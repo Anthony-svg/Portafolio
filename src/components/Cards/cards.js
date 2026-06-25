@@ -1,49 +1,30 @@
 import React from 'react'
+import dataProyectos from '../../data/portfolio.json';
+import './card.css'
 
-import portada1 from '../../assets/images/portada.jpg'
-import portada2 from '../../assets/images/Imagen1.png'
-import portada3 from '../../assets/images/portada3.png'
-import "./card.css";
-
-export default function cards() {
+export default function Cards() {
   return (
-    
-    <div className='cuadricula'><div className="contenedor">
+    <div className="cuadricula">
+      {dataProyectos.map((data) => (
+        <div className="contenedor" key={data.id}>
           <div className="card">
-              <a href='https://github.com/Anthony-svg/Portafolio' target="_blank" rel="noreferrer">
-                  <figure>
-                      <img src={portada1} alt="Imagen Portada"></img>
-                  </figure>
-                  <div className='contenido'>            
-                  </div>
-              </a>
+            <a
+              href={data.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <figure>
+                <img
+                  src={data.portada}
+                  alt={data.titulo}
+                />
+              </figure>
+              <div className="contenido"></div>
+            </a>
           </div>
-          <h2>Portafolio</h2>
-      </div>
-          <div className="contenedor">
-              <div className="card">
-                  <a href='https://orizontel.ec/' target="_blank" rel="noreferrer">
-                      <figure>
-                          <img src={portada2} alt="Imagen Portada"></img>
-                      </figure>
-                      <div className='contenido'>               
-                      </div>
-                  </a>
-              </div>
-              <h2>Pagina Orizontel</h2>
-          </div>
-          <div className="contenedor">
-              <div className="card">
-                  <a href='https://gitlab.com/busesecuador/buses-ecuador-app' target="_blank" rel="noreferrer">
-                      <figure>
-                          <img src={portada3} alt="Imagen Portada"></img>
-                      </figure>
-                      <div className='contenido'>            
-                      </div>
-                  </a>
-              </div>
-              <h2>Aplicacion para compra de boletos</h2>
-          </div>
-          </div>
-  )
+          <h2>{data.titulo}</h2>
+        </div>
+      ))}
+    </div>
+  );
 }

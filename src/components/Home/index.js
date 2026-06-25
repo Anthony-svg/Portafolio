@@ -42,7 +42,7 @@ const Home = () => {
               idx={15}
             />
           </h1>
-          <h2>Desarrollador Full Stack</h2>
+          <h2>Ingeniero de Software / Desarrollador</h2>
           <div>
           <Link to="/contacto" className="flat-button">
             Contactame
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
         </div>
         <img src={logo}
-        className="solid-logo"
+        className="homepage"
         alt="Developer"
       />
       </div>

@@ -18,14 +18,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_ibkyjwx', 'template_fdca3en', form.current, 'zVIBM20DX_BaL7Wl9')
+    emailjs.sendForm('service_ibkyjwx', 'template_fdca3en', form.current, 'lHPjrpwhBFa819s1u')
       .then(
         () => {
-          console.log("se envio la info");
           e.target.reset();
-        },
-        () => {
-          console.log("No se envio la info");
         }
       )
   }
@@ -48,7 +44,7 @@ const Contact = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Nombre" type="text" name="name" required />
+                  <input placeholder="Nombre" type="text" name="nombre" required />
                 </li>
                 <li className="half">
                   <input
